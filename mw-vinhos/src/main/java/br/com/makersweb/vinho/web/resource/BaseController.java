@@ -1,7 +1,7 @@
 /**
  * 
  */
-package br.com.makersweb.vinho.web.controller;
+package br.com.makersweb.vinho.web.resource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
