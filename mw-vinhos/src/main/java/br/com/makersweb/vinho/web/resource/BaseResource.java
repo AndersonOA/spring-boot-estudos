@@ -27,11 +27,11 @@ import br.com.makersweb.vinho.web.service.exception.SaveException;
  *
  */
 @RestController
-public abstract class BaseController<T extends DefaultEntity> {
+public abstract class BaseResource<T extends DefaultEntity> {
 
 	private Logger logger;
 
-	public BaseController() {
+	public BaseResource() {
 		logger = LoggerFactory.getLogger(this.getClass());
 	}
 

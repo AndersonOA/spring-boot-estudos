@@ -18,7 +18,7 @@ import br.com.makersweb.vinho.web.service.UsuarioService;
  */
 @RestController
 @RequestMapping("/api/v1/usuarios")
-public class UsuarioResource extends BaseController<Usuario> {
+public class UsuarioResource extends BaseResource<Usuario> {
 
 	@Autowired
 	private UsuarioService service;
