@@ -9,10 +9,10 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import br.com.makersweb.vinho.web.entity.DefaultEntity;
 
 /**
- *
- * @author andersonaristides
- *
- */
+*
+* @author anderson.aristides
+*
+*/
 @NoRepositoryBean
 public interface IBaseRepository<T extends DefaultEntity> extends PagingAndSortingRepository<T, Long> {
 
